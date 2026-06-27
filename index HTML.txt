@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotation Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="quote-container">
+            <h1>Quote of the Day</h1>
+            <div class="quote-area">
+                <p id="quote-text">"Click the button below to get inspired!"</p>
+                <span id="author-name">- Author</span>
+            </div>
+            <button id="new-quote-btn">New Quote</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
