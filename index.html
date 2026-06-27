@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Quote App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator Pro</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- These are icons for the Speak, Copy, and Twitter buttons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Daily Inspiration</h1>
-        <p id="quote">Click the button for a new quote!</p>
-        <button id="btn">New Quote</button>
+  <div class="wrapper">
+    <header>Quote of the Day</header>
+    <div class="content">
+      <div class="quote-area">
+        <i class="fas fa-quote-left"></i>
+        <p class="quote">Click the button below to get a fresh quote.</p>
+        <i class="fas fa-quote-right"></i>
+      </div>
+      <div class="author">
+        <span>__</span>
+        <span class="name">Anonymous</span>
+      </div>
     </div>
-    <script src="script.js"></script>
+    <div class="buttons">
+      <div class="features">
+        <ul>
+          <li class="speech"><i class="fas fa-volume-up"></i></li>
+          <li class="copy"><i class="fas fa-copy"></i></li>
+          <li class="twitter"><i class="fab fa-twitter"></i></li>
+        </ul>
+        <button id="new-quote-btn">New Quote</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
